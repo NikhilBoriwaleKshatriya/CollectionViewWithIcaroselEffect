@@ -14,6 +14,9 @@
 		F1A249CC20A96B270051743D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A249CA20A96B270051743D /* LaunchScreen.storyboard */; };
 		F1A249D720A96B270051743D /* CollectionViewWithIcaroselEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A249D620A96B270051743D /* CollectionViewWithIcaroselEffectTests.swift */; };
 		F1A249E220A96B270051743D /* CollectionViewWithIcaroselEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A249E120A96B270051743D /* CollectionViewWithIcaroselEffectUITests.swift */; };
+		F1A249F120A96C090051743D /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A249EF20A96C090051743D /* myCollectionViewCell.swift */; };
+		F1A249F220A96C090051743D /* myCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A249F020A96C090051743D /* myCollectionViewCell.xib */; };
+		F1A249F420A970A10051743D /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A249F320A970A10051743D /* UPCarouselFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F1A249DD20A96B270051743D /* CollectionViewWithIcaroselEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewWithIcaroselEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A249E120A96B270051743D /* CollectionViewWithIcaroselEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewWithIcaroselEffectUITests.swift; sourceTree = "<group>"; };
 		F1A249E320A96B270051743D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A249EF20A96C090051743D /* myCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1A249F020A96C090051743D /* myCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCollectionViewCell.xib; sourceTree = "<group>"; };
+		F1A249F320A970A10051743D /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				F1A249C120A96B270051743D /* AppDelegate.swift */,
 				F1A249C320A96B270051743D /* ViewController.swift */,
+				F1A249F320A970A10051743D /* UPCarouselFlowLayout.swift */,
+				F1A249EF20A96C090051743D /* myCollectionViewCell.swift */,
+				F1A249F020A96C090051743D /* myCollectionViewCell.xib */,
 				F1A249C520A96B270051743D /* Main.storyboard */,
 				F1A249C820A96B270051743D /* Assets.xcassets */,
 				F1A249CA20A96B270051743D /* LaunchScreen.storyboard */,
@@ -234,6 +243,7 @@
 			files = (
 				F1A249CC20A96B270051743D /* LaunchScreen.storyboard in Resources */,
 				F1A249C920A96B270051743D /* Assets.xcassets in Resources */,
+				F1A249F220A96C090051743D /* myCollectionViewCell.xib in Resources */,
 				F1A249C720A96B270051743D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A249F120A96C090051743D /* myCollectionViewCell.swift in Sources */,
 				F1A249C420A96B270051743D /* ViewController.swift in Sources */,
+				F1A249F420A970A10051743D /* UPCarouselFlowLayout.swift in Sources */,
 				F1A249C220A96B270051743D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
